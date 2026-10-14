@@ -4,6 +4,12 @@ A standalone Discourse theme component that requires recorded reading time befor
 
 Version: **1.0.3**. Requires Discourse **2026.10.0-latest** or newer.
 
+## Download
+
+[Download version 1.0.3 (.tar.gz)](https://github.com/nickdb01/dc_topic_read_timer/raw/refs/heads/main/downloads/dc_topic_read_timer-1.0.3.tar.gz)
+
+For manual installation, choose **From your device** in the component installation dialog and upload the archive. Configure the guidelines topic ID after installation. Repository installation below supports updates through Discourse.
+
 ## Installation
 
 1. Open **Admin > Appearance > Themes & components > Components > Install**.
