@@ -1,0 +1,26 @@
+{
+  "name": "dc-topic-read-timer",
+  "version": "1.0.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint:js": "eslint javascripts test --max-warnings 0",
+    "lint:css": "stylelint 'common/**/*.scss'",
+    "lint:prettier": "prettier javascripts test common locales about.json settings.yml --check",
+    "test:unit": "node --test tests/*.test.mjs",
+    "test:compile": "node scripts/check-templates.mjs",
+    "test": "npm run test:unit && npm run test:compile && npm run lint:js && npm run lint:css && npm run lint:prettier && npm run test:locales",
+    "test:locales": "node scripts/check-locales.mjs"
+  },
+  "devDependencies": {
+    "@discourse/lint-configs": "3.7.0",
+    "content-tag": "^4.0.0",
+    "eslint": "^10.0.0",
+    "prettier": "^3.8.0",
+    "stylelint": "^17.0.0",
+    "yaml": "^2.9.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

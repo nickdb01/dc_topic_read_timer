@@ -1,0 +1,5 @@
+tr_TR:
+  reading_requirement:
+    explanation: "Toplulukta %{minutes} dakika okuduktan sonra yeni konu oluşturma etkinleştirilecek"
+    check_failed: "Okuma süreniz kontrol edilemedi. Lütfen yeniden bağlanıp tekrar deneyin."
+    guidelines_prompt: "Kurallarımızı görmek için tıklayın."

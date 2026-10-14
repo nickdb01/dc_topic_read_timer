@@ -1,0 +1,5 @@
+en_GB:
+  reading_requirement:
+    explanation: "New topics will be enabled after %{minutes} minutes of reading on the community"
+    check_failed: "Unable to check your reading time. Please reconnect and try again."
+    guidelines_prompt: "Click to see our guidelines."

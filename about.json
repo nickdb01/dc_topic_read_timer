@@ -1,0 +1,9 @@
+{
+  "name": "Topic Read Timer",
+  "component": true,
+  "authors": "Nick de Beer",
+  "about_url": "https://github.com/nickdb01/dc_topic_read_timer",
+  "license_url": "https://github.com/nickdb01/dc_topic_read_timer/blob/main/LICENSE",
+  "theme_version": "1.0.3",
+  "minimum_discourse_version": "2026.10.0-latest"
+}

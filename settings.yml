@@ -1,0 +1,13 @@
+enabled:
+  default: true
+required_reading_minutes:
+  default: 5
+  min: 0
+  max: 1440
+maximum_restricted_trust_level:
+  default: 0
+  min: 0
+  max: 4
+guidelines_topic_id:
+  default: 4
+  min: 1

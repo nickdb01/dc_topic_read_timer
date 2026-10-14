@@ -1,0 +1,5 @@
+fr:
+  reading_requirement:
+    explanation: "La création de sujets sera activée après %{minutes} minutes de lecture dans la communauté"
+    check_failed: "Impossible de vérifier votre temps de lecture. Veuillez vous reconnecter et réessayer."
+    guidelines_prompt: "Cliquez pour consulter nos règles."

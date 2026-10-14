@@ -1,0 +1,31 @@
+.dc-topic-reading-locked[data-dc-reading-locked="true"] {
+  background: var(--primary-low);
+  border-color: var(--primary-low-mid);
+  color: var(--primary-high);
+  cursor: not-allowed;
+  box-shadow: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: var(--primary-low);
+    color: var(--primary-high);
+    box-shadow: none;
+  }
+
+  // Keep the original SVG in core's DOM so its normal icon returns unchanged.
+  .d-icon:not(.dc-topic-reading-lock) {
+    display: none;
+  }
+
+  .dc-topic-reading-lock,
+  &:hover .dc-topic-reading-lock,
+  &:focus .dc-topic-reading-lock {
+    color: var(--primary-high);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--tertiary);
+    outline-offset: 2px;
+  }
+}

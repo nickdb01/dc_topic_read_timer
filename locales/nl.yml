@@ -1,0 +1,5 @@
+nl:
+  reading_requirement:
+    explanation: "Nieuwe onderwerpen worden ingeschakeld na %{minutes} minuten lezen in de community"
+    check_failed: "Je leestijd kon niet worden gecontroleerd. Maak opnieuw verbinding en probeer het opnieuw."
+    guidelines_prompt: "Klik om onze richtlijnen te bekijken."

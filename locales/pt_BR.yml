@@ -1,0 +1,5 @@
+pt_BR:
+  reading_requirement:
+    explanation: "A criação de novos tópicos será ativada após %{minutes} minutos de leitura na comunidade"
+    check_failed: "Não foi possível verificar seu tempo de leitura. Reconecte-se e tente novamente."
+    guidelines_prompt: "Clique para ver nossas diretrizes."

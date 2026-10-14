@@ -1,0 +1,5 @@
+de:
+  reading_requirement:
+    explanation: "Neue Themen werden nach %{minutes} Minuten Lesezeit in der Community freigeschaltet"
+    check_failed: "Deine Lesezeit konnte nicht überprüft werden. Bitte stelle die Verbindung wieder her und versuche es erneut."
+    guidelines_prompt: "Klicke, um unsere Richtlinien zu lesen."

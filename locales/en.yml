@@ -1,0 +1,12 @@
+en:
+  theme_metadata:
+    description: "Require recorded reading time before new users can create topics, while keeping replies available."
+    settings:
+      enabled: "Enable the reading requirement for new topics."
+      required_reading_minutes: "Required total reading time, in minutes. Default 5; set 0 to disable."
+      maximum_restricted_trust_level: "Restrict this trust level and all lower levels. Default 0. Staff are exempt."
+      guidelines_topic_id: "Topic opened when a restricted user clicks New Topic. Default 4, the community guidelines."
+  reading_requirement:
+    explanation: "New topics will be enabled after %{minutes} minutes of reading on the community"
+    check_failed: "Unable to check your reading time. Please reconnect and try again."
+    guidelines_prompt: "Click to see our guidelines."

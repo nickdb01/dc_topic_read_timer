@@ -1,0 +1,5 @@
+es:
+  reading_requirement:
+    explanation: "Podrás crear temas nuevos después de %{minutes} minutos de lectura en la comunidad"
+    check_failed: "No se pudo comprobar tu tiempo de lectura. Vuelve a conectarte e inténtalo de nuevo."
+    guidelines_prompt: "Haz clic para ver nuestras normas."
